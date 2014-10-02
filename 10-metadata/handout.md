@@ -39,7 +39,7 @@ Stellen Anforderungen, Spezifikationen, Richtilinien oder Eigenschaften für Mat
 
 [**191xx Standards**](https://www.google.de/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=0CDYQFjAD&url=http%3A%2F%2Fwww.wmo.int%2Fpages%2Fprog%2Fwww%2FTECO-WIS%2F1-3-1_WMO-PKerherve_ISO-191xx-Geographic.pps&ei=2GkpVOrJBYHB7AaEkoCAAw&usg=AFQjCNGxQwO62dlzZ0sAa56KZowWUg6XFg&sig2=9K4x9c7E6p2uwy4SJNivyg&bvm=bv.76247554,d.ZGU&cad=rjahttps://www.google.de/url?) behandeln digitale Geoinformationen. Durch das Definieren, Beschreiben und Regeln wird Interoperabilität von Geoinformationssystemen ermöglicht. So können Geoinformationen plattformunabhängig benutzt werden.
 
-<img src="ISO_UEBERSICHT.jpg" alt="ISO_UEBERSICHT.jpg">
+[ISO-Standards eine Übersicht.](https://www.dropbox.com/s/xpms8tl84ospgdx/ISO_UEBERSICHT.jpg?dl=0)
 
 
 
@@ -129,7 +129,7 @@ OGC - Catalog
 [Open Geospatial Consortium](http://www.opengeospatial.org/) ist eine Organisation, die Standards im Bezug auf Geodaten bereitstellt.
 Diese stellen unter anderem folgenden Dienst bereit: [OGC - Catalog](http://www.opengeospatial.org/standards/cat)
 
-<img src="OGC_GRAFIK.png" width="500" alt="OGC_GRAFIK-png">
+[Übersicht OGC - Catalog](https://www.dropbox.com/s/hlts7l52ld5plf1/OGC_GRAFIK.png?dl=0)
 
 Dieser bietet die Möglichkeit eine Ansammlung von Metadaten zu veröffentlichen und zu durchsuchen. Die dort hinterlegten Daten sind nur beschreibende Metadaten, welche durch gängige ISO Standards codiert wurden (z.B. ISO 19115 und 19119).
 
@@ -211,7 +211,7 @@ Beschreibt und führt Informationen über:
 ###### 1. Beispiel ######
 Das UML-Diagramm zeigt, dass *Stadt* eine Unterklasse von *Ort* ist und der widerrum eine Unterklasse von *Gebiet*. Weiter wird festgelegt, dass *Berlin* eine Instanz von *Stadt* ist.
 
-<img src="OWL_BSP1.png" width="150" align="center" alt="Bild: OWL_BSP1.png">
+[Beispiel 1](https://www.dropbox.com/s/9ykxh0wjqjgl9sc/OWL_BSP1.png?dl=0)
 
 ```sh
 	<owl:Class rdf:ID="Ort"/>
@@ -225,7 +225,7 @@ Das UML-Diagramm zeigt, dass *Stadt* eine Unterklasse von *Ort* ist und der wide
 ###### 2. Beispiel ######
 Das UML-Diagramm zeigt die Beziehung zwischen *Wein* und einer *Weinkellerei*, nämlich *hergestelltVon*.
 
-<img src="OWL_BSP2.png" alt="Bild: OWL_BSP2.png">
+[Beispiel 2](https://www.dropbox.com/s/nb8ywg3qh95ai6w/OWL_BSP2.png?dl=0)
 
 ```sh
 <owl:ObjectProperty rdf:ID="hergestelltVon"> 
