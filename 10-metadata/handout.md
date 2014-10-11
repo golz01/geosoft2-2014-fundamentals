@@ -122,37 +122,6 @@ XMP (Extensible Metadata Platform) ist eine praktische Anwendung von RDF.
 [Weitere Informationen hierzu](http://www.pdfa.org/2011/09/pdfa-metadaten-xmp-rdf-dublin-core/?lang=de)
 
 
-
-OGC - Catalog
----
-
-[Open Geospatial Consortium](http://www.opengeospatial.org/) ist eine Organisation, die Standards im Bezug auf Geodaten bereitstellt.
-Diese stellen unter anderem folgenden Dienst bereit: [OGC - Catalog](http://www.opengeospatial.org/standards/cat)
-
-[Übersicht OGC - Catalog](https://www.dropbox.com/s/hlts7l52ld5plf1/OGC_GRAFIK.png?dl=0)
-
-Dieser bietet die Möglichkeit eine Ansammlung von Metadaten zu veröffentlichen und zu durchsuchen. Die dort hinterlegten Daten sind nur beschreibende Metadaten, welche durch gängige ISO Standards codiert wurden (z.B. ISO 19115 und 19119).
-
-**Operationen**
-
-* GetCapabilities
-	* Abfragen, die diesen Catalog Service beschreiben
-* DescribeRecord
-	* Abfrage des XML-Schemas der Metadaten, die eine bestimmte Ressource beschreiben
-* GetRecords
-	* Abfrage von Metadaten der Ressourcen
-* GetRecordById
-	* Abfrage von Metadaten der Ressource mit einer bestimmten ID
-* Transaction
-	* Erstellen, Verändern und Löschen von bestimmten Metadaten
-* Harvest
-	* Einfügen oder Aktualisieren von Metadaten durch einlesen von Metadaten anderer Archive (repositories)
-
-**Beispiel**
-```sh
-http://www.geoportal1.nrw.de/soapServices/CSWStartup?service=CSW&version=2.0.2&request=GetCapabilities
-```
-
 OWL - Web Ontology Language
 ---
 
@@ -246,6 +215,36 @@ Das UML-Diagramm zeigt die Beziehung zwischen *Wein* und einer *Weinkellerei*, n
 
 Der Header zeigt an, welche Beziehung beschrieben wird und welche *domain* und *range* gegeben sind. Hier: alle Elemente der Klasse *owl:Thing*. Im Body wird die Klasse *Wein* genauer beschrieben, nämlich dass *Wein* alle Werte der *Weinkellerei* übernehmen soll, von dieser hergestellt wird und nur von genau einer hergestellt wird.
 
+
+OGC - Catalog
+---
+
+[Open Geospatial Consortium](http://www.opengeospatial.org/) ist eine Organisation, die Standards im Bezug auf Geodaten bereitstellt.
+Diese stellen unter anderem folgenden Dienst bereit: [OGC - Catalog](http://www.opengeospatial.org/standards/cat)
+
+[Übersicht OGC - Catalog](https://www.dropbox.com/s/hlts7l52ld5plf1/OGC_GRAFIK.png?dl=0)
+
+Dieser bietet die Möglichkeit eine Ansammlung von Metadaten zu veröffentlichen und zu durchsuchen. Die dort hinterlegten Daten sind nur beschreibende Metadaten, welche durch gängige ISO Standards codiert wurden (z.B. ISO 19115 und 19119).
+
+**Operationen**
+
+* GetCapabilities
+	* Abfragen, die diesen Catalog Service beschreiben
+* DescribeRecord
+	* Abfrage des XML-Schemas der Metadaten, die eine bestimmte Ressource beschreiben
+* GetRecords
+	* Abfrage von Metadaten der Ressourcen
+* GetRecordById
+	* Abfrage von Metadaten der Ressource mit einer bestimmten ID
+* Transaction
+	* Erstellen, Verändern und Löschen von bestimmten Metadaten
+* Harvest
+	* Einfügen oder Aktualisieren von Metadaten durch einlesen von Metadaten anderer Archive (repositories)
+
+**Beispiel**
+```sh
+http://www.geoportal1.nrw.de/soapServices/CSWStartup?service=CSW&version=2.0.2&request=GetCapabilities
+```
 
 # Folksonomy #
 
